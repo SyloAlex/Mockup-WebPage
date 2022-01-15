@@ -1,0 +1,11 @@
+html {
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+body {
+    margin: auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}

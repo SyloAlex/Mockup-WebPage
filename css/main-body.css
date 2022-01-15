@@ -1,0 +1,269 @@
+.sidescroller {
+    height: 400px;
+    background-color: rgb(3, 78, 162);
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+.sidescroller p {
+    position: relative;
+    top: 50%;
+}
+
+.flex-container {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    font-size: 120%;
+    margin-top: 35px;
+}
+
+.main-column {
+    flex: 3;
+    margin-right: 50px;
+}
+
+.advertisement {
+    flex: 1;
+}
+
+.main-column .business-logo {
+    text-align: center;
+}
+
+.main-column .business-logo img {
+    width: 35%;
+}
+
+.main-column h2 {
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.business-articles {
+    margin-bottom: 40px;
+}
+
+.business-articles ul li:hover {
+    text-decoration: underline black;
+}
+
+.main-column span {
+    font-weight: bold;
+}
+
+.main-column ul li {
+    padding: 10px;
+}
+
+.black-block {
+    width: max-content;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.black-block p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.black-block:hover {
+    background-color: rgb(3, 78, 162);
+    color: white;
+}
+
+.flex-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-top: solid 3px black;
+}
+
+.column-a {
+    flex: 1;
+}
+
+.image-a {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(3, 78, 162);
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image-a p {
+    position: relative;
+    top: 50%;
+}
+
+.flex-block-mini {
+    margin-top: 20px;
+    display: flex;
+}
+
+.image-b {
+    flex: 1;
+    height: auto;
+    background-color: rgb(3, 78, 162);
+}
+
+.image-text {
+    flex: 3;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.events{
+    margin-bottom: 40px;
+}
+
+.articles-info {
+    margin-bottom: 40px;
+}
+
+.venamcham-info {
+    margin-bottom: 40px;
+}
+
+.venamcham-header {
+    display: flex;
+}
+
+.venamcham-header .info-menu {
+    width: 70%;
+    text-align: end;
+}
+
+.venamcham-info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 30%;
+}
+
+.venamcham-info ul li {
+    font-size: 90%;
+    display: inline;
+}
+
+.yellow-block {
+    width: 27%;
+    background-color: rgb(226, 156, 4);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.venamcham-info .flex-block {
+    border-top: solid 3px rgb(226, 156, 4);
+}
+
+.membership-news {
+    margin-bottom: 40px;
+}
+
+.flex-news {
+    display: flex;
+    gap: 20px;
+}
+
+.blue-block {
+    width: max-content;
+    background-color: rgb(3, 78, 162);
+    color: white;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.red-block {
+    width: max-content;
+    background-color: rgb(237, 27, 46);
+    color: white;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.blue-block p,
+.red-block p,
+.yellow-block p {
+    padding: 0;
+    margin: 0;
+}
+
+.membership-news .membership {
+    border-top: solid 3px rgb(3, 78, 162);
+}
+
+.membership-news .news {
+    border-top: solid 3px rgb(237, 27, 46);
+}
+
+.membership-news ul li {
+    padding: 5px;
+    font-size: 85%;
+}
+
+.membership-news ul li:hover {
+    color: rgb(3, 78, 162);
+    cursor: pointer;
+}
+
+.advertisement .twitter-account {
+    margin-top: 0;
+    font-size: 85%;
+    padding-top: 20px;
+    margin-bottom: 0;
+    border-top: solid 3px black;
+}
+
+.advertisement .twitter-account .large-text {
+    font-size: 150%;
+}
+
+.twitter-link {
+    cursor: pointer;
+    color:blue;
+}
+
+.twitter-link:hover {
+    color: black;
+}
+
+.twitter-scroll {
+    height: 500px;
+    background-color: rgb(3, 78, 162);
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.twitter-scroll p {
+    position: relative;
+    top: 50%;
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.text{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 120%;
+    text-align: justify;
+}
+
+.venamcham-info .text {
+    font-size: 80%;
+}
+
+.text span {
+    font-weight: bold;
+}

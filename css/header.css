@@ -1,0 +1,100 @@
+header {
+    width: 1080px;
+    margin: auto;
+}
+
+.top-header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 85%;
+}
+
+.top-header img {
+    width: auto;
+    height: 20px;
+}
+
+.header-info {
+    flex: 1;
+}
+
+.header-sm {
+    flex: 1;
+    text-align: end;
+}
+
+.top-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-header ul li {
+    display: inline;
+}
+
+.left-block li:nth-child(2),
+.left-block li:nth-child(3) {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.left-block li:nth-child(2):hover,
+.left-block li:nth-child(3):hover {
+    color: cadetblue;
+}
+
+.right-block li {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.bottom-header {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.bottom-header div {
+    flex: 1;
+}
+
+.bottom-header div img {
+    height: 80px;
+    width: auto;
+}
+
+nav {
+    flex: auto;
+    text-align: end;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul img {
+    height: 35px;
+    width: auto;
+    position: relative;
+    top: 12px;
+}
+
+nav ul li {
+    display: inline;
+    font-weight: bold;
+    padding: 35px 10px;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    background-color: rgb(3, 78, 162);
+    color: white;
+}
+
+nav ul li:last-child:hover {
+    background-color: white;
+    color: black;
+}
